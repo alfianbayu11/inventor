@@ -37,7 +37,7 @@ require 'function.php';
                             Stok Barang
                         </a>
                         <a class="nav-link" href="mutasi.php">
-                            <div class="sb-nav-link-icon"><i class="fa fa-archive"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fa fa-archive"></i></i></div>
                             Mutasi Barang
                         </a>
 
@@ -115,7 +115,7 @@ require 'function.php';
                                             <td><?=$namabarang?></td>
                                             <td><?=$statusbarang?></td>
                                             <td><?=$qty?></td>
-                                            <td><?=$saldo?></td>
+                                            <td><?=buatRupiah($saldo)?></td>
                                             <td>
                                                 <button type="button" class="btn btn-warning" data-toggle="modal"
                                                     data-target="#edit<?=$id?>">
@@ -225,7 +225,7 @@ require 'function.php';
         <footer class="py-4 bg-light mt-auto">
             <div class="container-fluid">
                 <div class="d-flex align-items-center justify-content-between small">
-                    <div class="text-muted">Copyright &copy; Your Website 2020</div>
+                    <div class="text-muted">Copyright Alfian Bayu 2022</div>
                     <div>
                         <a href="#">Privacy Policy</a>
                         &middot;

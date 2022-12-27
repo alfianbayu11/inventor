@@ -87,7 +87,7 @@ require 'function.php';
                                         <tr>
                                             <td><?=$kdbarang?></td>
                                             <td><?=$namabarang?></td>
-                                            <td><?=$harga?></td>
+                                            <td><?=buatRupiah($harga)?></td>
                                             <td>
                                                 <button type="button" class="btn btn-warning" data-toggle="modal"
                                                     data-target="#edit<?=$idb?>">
@@ -185,7 +185,7 @@ require 'function.php';
         <footer class="py-4 bg-light mt-auto">
             <div class="container-fluid">
                 <div class="d-flex align-items-center justify-content-between small">
-                    <div class="text-muted">Copyright &copy; Your Website 2020</div>
+                    <div class="text-muted">Copyright Alfian Bayu 2022</div>
                     <div>
                         <a href="#">Privacy Policy</a>
                         &middot;

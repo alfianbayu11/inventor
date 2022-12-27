@@ -1,6 +1,12 @@
 <?php
 // konek db
-$conn = mysqli_connect("localhost", 'id20065522_localhost', 'chd0eV|f6cKu[?/!', 'id20065522_invento');
+// $conn = mysqli_connect("localhost", 'id20065522_localhost', 'chd0eV|f6cKu[?/!', 'id20065522_invento');
+$conn = mysqli_connect("localhost", 'root', '', 'invento');
+//fungsi buatRupiah
+function buatRupiah($angka){
+    $hasil = "Rp " . number_format($angka,2,',','.');
+    return $hasil;
+}
 
 //menambah barang baru
 if (isset($_POST['addnewbarang'])) {
