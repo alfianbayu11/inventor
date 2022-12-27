@@ -58,7 +58,7 @@ if (isset($_POST['hapusbarang'])) {
         header('location:index.php');
     }
 };
-
+//tambah mutasi barang
 if (isset($_POST['addnewmutasi'])) {
     $nobukti = $_POST['nobukti'];
     $barangnya = $_POST['barangnya'];
@@ -79,7 +79,7 @@ if (isset($_POST['addnewmutasi'])) {
         header('location:mutasi.php');
     }
 };
-
+//edit mutasi barang
 if (isset($_POST['updatemutasi'])) {
     $id = $_POST['id'];
     $nobukti = $_POST['nobukti'];
